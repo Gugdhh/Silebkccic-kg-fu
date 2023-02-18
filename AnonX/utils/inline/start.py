@@ -47,10 +47,5 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="🥀 ᴀɴᴜᴊ 🥀", user_id=OWNER
             )
         ],
-        [
-            InlineKeyboardButton(
-                text="✨ sᴏᴜʀᴄᴇ ✨", url=https://te.legra.ph/file/b2eb1020ff4de13d8c8fc.mp4
-            )
-        ],
      ]
     return buttons
